@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  php-app:
+    build: .
+    ports:
+      - "8000:80"
+    environment:
+      DB_HOST: "todo-db.clmco0iugmvl.ap-south-1.rds.amazonaws.com"
+      DB_USER: "admin"
+      DB_PASSWORD: "8xAnMGNMTip8a7YIdqaN"
+      DB_NAME: "todo-db"
+
+
+
