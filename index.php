@@ -20,10 +20,10 @@ $todos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Todo App</title>
+    <title>Vaibhav's Todo App</title>
 </head>
 <body>
-    <h1>Todo App</h1>
+    <h1>Vaibhav's Todo App</h1>
 
     <form method="POST">
         <input type="text" name="task" placeholder="Add a task">
